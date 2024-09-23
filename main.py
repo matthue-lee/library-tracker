@@ -104,7 +104,9 @@ def calculate_average_confidence(book_data):
                         averages[book][orientation][threshold] = None  # or some default value
     return averages
 
-
+#no changes
+def newfunc():
+    return(0)
 def main():
     img_path = 'test1.jpg'
     output_dir = 'output_images'
