@@ -1,0 +1,19 @@
+--- With Binary Inversion (Threshold: 50) ---
+‘ “I ay A To. ae ae + rn aaa foe ee J . alt Me x ™ oa te ~. a > fo . —. hag Tee ps ee Te
+Confidence Scores: 82, 14, 21, 47, 4, 41, 17, 63, 19, 33, 38, 41, 13, 4, 23, 15, 56, 69, 24, 38, 73, 29, 50, 8, 45, 26, 11, 7, 34, 35, 41
+
+--- With Binary Inversion (Threshold: 100) ---
+¢ \ ed phe, Poon ee oe Ee a en : alae ee toes F at rt =r. gel ey gt 5 v arty : c OY steel ar, Daa . , g RES a law - ec Be BS a MS Cy, ae wy Pa ‘SSE a) eee te Maer er
+Confidence Scores: 81, 8, 31, 55, 29, 25, 32, 10, 20, 15, 12, 30, 12, 16, 1, 49, 62, 30, 34, 20, 24, 36, 29, 33, 45, 36, 39, 17, 43, 33, 49, 43, 20, 32, 25, 21, 66, 26, 17, 22, 30, 22, 29, 26, 7, 8, 53, 23, 24, 32, 13, 33
+
+--- With Binary Inversion (Threshold: 150) ---
+YEAR OF THE LOCUST TERRY HAYES ©
+Confidence Scores: 96, 96, 96, 96, 96, 96, 31
+
+--- With Binary Inversion (Threshold: 200) ---
+THE YEAR OF THE LOCUS! TERRY HAYES @)
+Confidence Scores: 96, 96, 96, 96, 93, 96, 97, 80
+
+--- Without Binary Inversion ---
+weer OS oe Be r ate Tet are an . wt os, ty ~ : ER" 2 if i wo “AR eal: pote coat re. ct an jit Ry wt 5 peu ure RO on ee (1 fy f | 3 ih Li Ld td Me rity 4 VAY q , EA ges a 3 ene PTT De ea NM 9 FS tt, i @ oe
+Confidence Scores: 42, 54, 24, 14, 12, 31, 21, 20, 38, 55, 32, 39, 31, 66, 13, 33, 35, 42, 70, 31, 39, 15, 23, 43, 42, 14, 26, 16, 31, 29, 22, 32, 35, 35, 47, 18, 24, 26, 9, 92, 6, 42, 36, 30, 38, 34, 24, 49, 54, 21, 19, 29, 22, 27, 63, 13, 43, 10, 15, 16, 43, 36, 24, 80, 90, 32
