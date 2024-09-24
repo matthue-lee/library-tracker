@@ -68,7 +68,7 @@ def process_images(input_folder, thresholds):
 
     return results
 
-# Helper function to extract text from the image with confidence
+
 def extract_text(blurred, threshold_value, use_inversion):
     if use_inversion:
         _, thresh = cv2.threshold(blurred, threshold_value, 255, cv2.THRESH_BINARY_INV)
@@ -92,6 +92,7 @@ def extract_text(blurred, threshold_value, use_inversion):
 
     return result, dilated
 
+
 def calculate_average_confidence(book_data):
     averages = {}
     for book, data in book_data.items():
@@ -107,6 +108,7 @@ def calculate_average_confidence(book_data):
                         averages[book][orientation][threshold] = None  # or some default value
     return averages
 
+
 def display_averarge_confidence(average_confidences):
     for book, orientations in average_confidences.items():
         for orientation, thresholds in orientations.items():
@@ -115,6 +117,7 @@ def display_averarge_confidence(average_confidences):
                     print(f"Book: {book}, Orientation: {orientation}, Threshold {threshold}: {avg_conf:.2f}")
                 else:
                     print(f"Book: {book}, Orientation: {orientation}, Threshold {threshold}: N/A")
+
 
 def find_overall_best_threshold(average_confidences):
     best_confidences = {}
@@ -139,6 +142,7 @@ def find_overall_best_threshold(average_confidences):
     
     return best_confidences
 
+
 def display_best_text_for_books(results, average_confidences):
     for book, details in average_confidences.items():
         best_orientation = details['best_orientation']
@@ -151,6 +155,7 @@ def display_best_text_for_books(results, average_confidences):
             print(f"Extracted Text: {text}\n")
         else:
             print(f"Book: {book} does not have a valid best threshold.\n")
+
 
 def identify_books(img_path):
     image = Image.open(img_path)
